@@ -37,7 +37,7 @@ export const About: React.FC = () => {
             </p>
           </div>
           <div className="mt-4 md:mt-0 font-mono text-xs text-clay-400 font-medium tracking-widest">
-            PM LAB DIRECTORY / AC-01
+            BELMA PM LAB 
           </div>
         </div>
 

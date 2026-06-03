@@ -81,7 +81,7 @@ export const Hero: React.FC<HeroProps> = ({ onSectionChange }) => {
                   <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gold-400 opacity-75"></span>
                   <span className="relative inline-flex rounded-full h-2 w-2 bg-gold-500"></span>
                 </span>
-                AI-Powered Product & Growth
+                AI-Powered Product Growth Strategy
               </span>
             </motion.div>
 

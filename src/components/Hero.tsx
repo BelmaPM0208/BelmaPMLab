@@ -97,7 +97,7 @@ export const Hero: React.FC<HeroProps> = ({ onSectionChange }) => {
                 variants={itemVariants}
                 className="text-lg sm:text-xl text-sage-600 max-w-2xl mx-auto lg:mx-0 font-sans font-light leading-relaxed"
               >
-                I partner with ambitious startups and scale-ups, utilizing advanced AI tools and productivity models to orchestrate high-fidelity orchestration schemas, build sustainable activation loops, and 10x roadmap implementation velocities.
+                I partner with ambitious (B2B) SaaS startups and scale-ups, utilizing advanced AI tools and productivity models to orchestrate high-fidelity orchestration schemas, build sustainable activation loops, and 10x roadmap implementation velocities.
               </motion.p>
             </div>
 

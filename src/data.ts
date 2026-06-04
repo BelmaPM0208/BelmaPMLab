@@ -99,7 +99,7 @@ export const BIOGRAPHY_DATA = {
     { title: "PSPO I - Professional Scrum Product Owner", organization: "Scrum.org" },
     { title: "Product Psychology Specialization", organization: "Product.Growth" },
     { title: "AIC™ - AI Micro-Certification", organization: "Product School" },
-    { title: "Cyber Security Fundamentals", organization: "SC Training" },
+    { title: "Cyber Security Fundamentals Training", organization: "Shop Circle" },
     { title: "Web Development Fundamentals", organization: "KFC Center" }
   ],
   bioText: [

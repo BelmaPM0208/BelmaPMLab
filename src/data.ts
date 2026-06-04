@@ -7,7 +7,7 @@ export const SERVICES_DATA: Service[] = [
     description: "A tailored, high-fidelity strategic growth blueprint where I analyze your current funnel, pinpoint core friction spots, and leverage predictive AI tools to design a custom product strategy and roadmap.",
     iconName: "Compass",
     deliverables: [
-      "Custom product growth strategic blueprint & AI prompt libraries",
+      "Custom product growth strategic blueprint",
       "User activation & cohort loop specifications",
       "AI-accelerated feature prioritization & execution roadmap"
     ],

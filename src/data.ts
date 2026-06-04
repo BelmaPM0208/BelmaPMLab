@@ -99,11 +99,11 @@ export const BIOGRAPHY_DATA = {
     { title: "PSPO I - Professional Scrum Product Owner", organization: "Scrum.org" },
     { title: "Product Psychology Specialization", organization: "Product.Growth" },
     { title: "AIC™ - AI Micro-Certification", organization: "Product School" },
-    { title: "Cyber Security Fundamentals", organization: "Shop Circle Training" },
-    { title: "Web Development Fundamentals", organization: "King Fahd Cultural Center" }
+    { title: "Cyber Security Fundamentals", organization: "SC Training" },
+    { title: "Web Development Fundamentals", organization: "KFC Center" }
   ],
   bioText: [
-    "I am an AI-powered Product-Led Growth (PLG) strategist and consultant who helps businesses turn their digital products into primary revenue engines. Throughout my career, I have used PLG frameworks combined with modern generative AI productivity suites to drive massive enterprise value—including scaling a client base by 750%, boosting Monthly Recurring Revenue (MRR) by 46% in eight months, and expanding a separate user base by 38% in half a year. By integrating data-driven insights with user psychology and advanced AI automation systems, I focus on building sustainable, scalable product loops that naturally accelerate acquisition and retention with unmatched efficiency.",
-    "While every business is unique and results depend on your specific market, I leverage a custom, AI-enhanced playbook to help you pinpoint the exact friction points killing your growth. Through tailored strategy sessions, prompt-engineered diagnostic templates, and high-impact consulting, we will analyze your churn, optimize your user journey, and build a customized roadmap to maximize your product's profitability. If you are ready to stop guessing, 10x your execution productivity, and start executing a clear growth strategy, let's book a call."
+    "I am an AI-powered Product-Led Growth (PLG) strategist and consultant who helps businesses turn their digital products into primary revenue engines. Throughout my career, I have used PLG frameworks combined with modern generative AI productivity suites to drive massive enterprise value—including scaling a client base by 750%, boosting Monthly Recurring Revenue (MRR) by 46%, and expanding a separate user base by 38%. By integrating data-driven insights with user psychology and advanced AI automation systems, I focus on building sustainable, scalable product loops that naturally accelerate acquisition and retention with unmatched efficiency.",
+    "While every business is unique and results depend on your specific market, I leverage a custom, AI-enhanced playbook to help you pinpoint the exact friction points killing your growth. Through tailored strategy sessions, prompt-engineered diagnostic templates, and high-impact consulting, we will analyze your churn, optimize your user journey, and build a customized roadmap to maximize your product's profitability. If you are ready to stop guessing, maximize your execution productivity, and start executing a clear growth strategy, let's book a call."
   ]
 };

@@ -104,6 +104,6 @@ export const BIOGRAPHY_DATA = {
   ],
   bioText: [
     "I help (B2B) SaaS companies grow their revenue using their own product and AI. By combining Product-Led Growth (PLG) with AI automation, I build simple systems that attract and keep users.",
-    "While every business is unique and results depend on your specific market, I leverage a custom, AI-enhanced playbook to help you pinpoint the exact friction points killing your growth. Through tailored strategy sessions, prompt-engineered diagnostic templates, and high-impact consulting, we will analyze your churn, optimize your user journey, and build a customized roadmap to maximize your product's profitability. If you are ready to stop guessing, maximize your execution productivity, and start executing a clear growth strategy, let's book a call."
+    "Every business is unique, which is why I use a customized, AI-driven playbook to find exactly what's slowing you down. Together, we will stop the leaks: Find out why users leave and fix it. Smooth the journey: Make it easier for customers to adopt your product. Build a plan: Create a clear, profitable roadmap for your team. Ready to stop guessing and start growing? Let’s book a call. "
   ]
 };

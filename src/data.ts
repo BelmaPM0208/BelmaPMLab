@@ -7,7 +7,7 @@ export const SERVICES_DATA: Service[] = [
     description: "A tailored, high-fidelity strategic growth blueprint where I analyze your current funnel, pinpoint core friction spots, and leverage predictive AI tools to design a custom product strategy and roadmap.",
     iconName: "Compass",
     deliverables: [
-      "Custom product growth strategic blueprint",
+      "Custom product growth strategic blueprint & AI prompt libraries",
       "User activation & cohort loop specifications",
       "AI-accelerated feature prioritization & execution roadmap"
     ],
@@ -17,7 +17,7 @@ export const SERVICES_DATA: Service[] = [
   },
   {
     id: "retainer",
-    title: "1-3 Month AI-Collaborative Retainer",
+    title: "2-3 Month AI-Collaborative Retainer",
     description: "Active oversight and consulting support where I guide your in-house product and development teams, utilizing state-of-the-art AI productivity tools to quickly audit, oversee, and transition the defined growth strategy.",
     iconName: "Activity",
     deliverables: [
@@ -97,13 +97,48 @@ export const BIOGRAPHY_DATA = {
   credentials: [
     { title: "LLM - International Business Law", organization: "Tilburg University" },
     { title: "PSPO I - Professional Scrum Product Owner", organization: "Scrum.org" },
-    { title: "Product Psychology Specialization", organization: "Growth.Design" },
+    { title: "Product Psychology Specialization", organization: "Product.Growth" },
     { title: "AIC™ - AI Micro-Certification", organization: "Product School" },
-    { title: "Cyber Security Fundamentals Training", organization: "Shop Circle" },
-    { title: "Web Development Fundamentals", organization: "KFC Center" }
+    { title: "Cyber Security Fundamentals", organization: "Shop Circle Training" },
+    { title: "Web Development Fundamentals", organization: "King Fahd Cultural Center" }
   ],
   bioText: [
     "I help (B2B) SaaS companies grow their revenue using their own product and AI. By combining Product-Led Growth (PLG) with AI automation, I build simple systems that attract and keep users.",
-    "Every business is unique, which is why I use a customized, AI-driven playbook to find exactly what's slowing you down. Together, we will stop the leaks: Find out why users leave and fix it. Smooth the journey: Make it easier for customers to adopt your product. Build a plan: Create a clear, profitable roadmap for your team. Ready to stop guessing and start growing? Let’s book a call. "
+    "Every business is unique, which is why I use a customized, AI-driven playbook to find exactly what's slowing you down. Together, we will stop the leaks: Find out why users leave and fix it. Smooth the journey: Make it easier for customers to adopt your product. Build a plan: Create a clear, profitable roadmap for your team. Ready to stop guessing and start growing? Let’s book a call."
   ]
 };
+
+import { Testimonial } from "./types";
+
+export const TESTIMONIALS_DATA: Testimonial[] = [
+  {
+    id: "testimonial-1",
+    name: "Alen Malkoč",
+    role: "ex. CEO @ HulkApps / Shop Circle, currently Founder and CEO of Flyrank AI",
+    company: "HulkApps / Shop Circle",
+    avatarChar: "A",
+    content: "Belma is a type of Product Manager who ties every product decision directly to data and business growth. While at HulkApps/Shop Circle, she re-defined our monetization strategy, resulting in an immediate 27% MoM revenue increase, and scaled our client base by 38%. She doesn't just manage a backlog; she understands how to build features that drive user adoption and real bottom-line revenue. Belma analyzed our support tickets, mapped out the friction points in our onboarding, and suggested a redesign that ultimately lowered our ticket volume by 35%. She spearheaded AI initiatives that vastly improved our merchant experience. Any startup/scale-up looking to unlock their next stage of growth would be lucky to have her strategic mind in their corner. And my favorite part of working with Belma was that she was never afraid to ask a question.",
+    impactMetric: "+27% MoM",
+    impactLabel: "Revenue Growth",
+    secondaryImpactMetric: "-35%",
+    secondaryImpactLabel: "Ticket Volume Drop",
+    category: "SaaS Product Led Growth",
+    rating: 5,
+    websiteUrl: "https://shopcircle.co"
+  },
+  {
+    id: "testimonial-2",
+    name: "Belmin Nazifović",
+    role: "Founder & CEO",
+    company: "Hides & Skins",
+    avatarChar: "B",
+    content: "If you’re looking to scale a digital product fast, Belma PM Lab is the ultimate partner. Belma took our traditional craftsmanship brand and seamlessly transitioned us into the digital space, conceptualizing and launching two distinct e-commerce apps.\n\nShe took us from a handful of users to 700 in just two months, and blew past the 10,000-user mark by the end of the year, all while tripling our sales. Her strategic vision for high-conversion customer journeys and explosive user acquisition is unmatched. If you want real, measurable growth, work with Belma.",
+    impactMetric: "10k+ Users",
+    impactLabel: "User Base Growth",
+    secondaryImpactMetric: "3x Sales",
+    secondaryImpactLabel: "Revenue Tripled",
+    category: "SaaS Product Led Growth",
+    rating: 5,
+    websiteUrl: "https://hidesandskins.ba/en"
+  }
+];

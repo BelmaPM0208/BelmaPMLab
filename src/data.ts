@@ -97,10 +97,10 @@ export const BIOGRAPHY_DATA = {
   credentials: [
     { title: "LLM - International Business Law", organization: "Tilburg University" },
     { title: "PSPO I - Professional Scrum Product Owner", organization: "Scrum.org" },
-    { title: "Product Psychology Specialization", organization: "Product.Growth" },
+    { title: "Product Psychology Specialization", organization: "Growth.Design" },
     { title: "AIC™ - AI Micro-Certification", organization: "Product School" },
     { title: "Cyber Security Fundamentals", organization: "Shop Circle Training" },
-    { title: "Web Development Fundamentals", organization: "King Fahd Cultural Center" }
+    { title: "Web Development Fundamentals", organization: "KFC Center" }
   ],
   bioText: [
     "I help (B2B) SaaS companies grow their revenue using their own product and AI. By combining Product-Led Growth (PLG) with AI automation, I build simple systems that attract and keep users.",

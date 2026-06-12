@@ -18,4 +18,20 @@ export interface ContactFormData {
   newsletter: boolean;
 }
 
-export type ActiveSection = "home" | "about" | "services" | "contact";
+export interface Testimonial {
+  id: string;
+  name: string;
+  role: string;
+  company: string;
+  avatarChar: string;
+  content: string;
+  impactMetric: string;
+  impactLabel: string;
+  secondaryImpactMetric?: string;
+  secondaryImpactLabel?: string;
+  category: "SaaS Product Led Growth" | "Agile Roadmap Delivery" | "Operational Systems";
+  rating: number;
+  websiteUrl?: string;
+}
+
+export type ActiveSection = "home" | "about" | "services" | "testimonials" | "contact";

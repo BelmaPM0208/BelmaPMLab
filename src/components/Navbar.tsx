@@ -29,12 +29,21 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, onSectionChange }
   const navLinks: { id: ActiveSection; label: string }[] = [
     { id: "about", label: "About" },
     { id: "services", label: "Services" },
+    { id: "testimonials", label: "Testimonials" },
     { id: "contact", label: "Contact" },
   ];
 
   const handleLinkClick = (id: ActiveSection) => {
     setIsOpen(false);
     onSectionChange(id);
+
+    if (id === "testimonials") {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+      return;
+    }
 
     const element = document.getElementById(id);
     if (element) {

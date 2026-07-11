@@ -119,7 +119,7 @@ export const Contact: React.FC = () => {
                   Choose a convenient time on my calendar to analyze your user journey, identify leakages, and outline high-level growth mechanics.
                 </p>
                 <a
-                  href="https://calendly.com/belma-belmapmlab/30min"
+                  href="https://belmapmlab.zohobookings.eu/264600000000046045"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex w-full items-center justify-center gap-2 px-6 py-3.5 bg-sage-500 text-white font-sans text-xs font-bold uppercase tracking-widest rounded-xl hover:bg-sage-600 active:bg-sage-700 transition-all text-center shadow-md shadow-sage-500/10 hover:shadow-lg cursor-pointer"

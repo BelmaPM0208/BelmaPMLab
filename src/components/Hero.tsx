@@ -108,7 +108,7 @@ export const Hero: React.FC<HeroProps> = ({ onSectionChange }) => {
               id="hero-cta-buttons"
             >
               <a
-                href="https://belmapmlab.zohobookings.eu/264600000000046045"
+                href="https://calendly.com/belma-belmapmlab/30min"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto px-8 py-4 bg-silver-900 text-white rounded-full font-sans text-sm font-semibold uppercase tracking-wider hover:bg-sage-600 active:bg-silver-950 transition-all shadow-md shadow-silver-900/10 hover:shadow-lg hover:scale-[1.01] flex items-center justify-center gap-2 text-center decoration-none"

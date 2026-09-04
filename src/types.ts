@@ -34,8 +34,6 @@ export interface Testimonial {
   websiteUrl?: string;
 }
 
-export type ActiveSection = "home" | "about" | "services" | "testimonials" | "contact";
-
 export interface CaseStudy {
   id: string;
   number: string;

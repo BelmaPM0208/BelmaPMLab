@@ -35,3 +35,21 @@ export interface Testimonial {
 }
 
 export type ActiveSection = "home" | "about" | "services" | "testimonials" | "contact";
+
+export interface CaseStudy {
+  id: string;
+  number: string;
+  title: string;
+  subtitle?: string;
+  category: string;
+  diagnostic: string;
+  strategy: string;
+  outcome: string;
+  metrics: {
+    value: string;
+    label: string;
+    detail: string;
+  }[];
+}
+
+export type ActiveSection = "home" | "about" | "services" | "case-studies" | "testimonials" | "contact";

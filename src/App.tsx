@@ -5,21 +5,24 @@ import { About } from "./components/About";
 import { Services } from "./components/Services";
 import { Contact } from "./components/Contact";
 import { Testimonials } from "./components/Testimonials";
+import { CaseStudies } from "./components/CaseStudies";
 import { Footer } from "./components/Footer";
 import { ActiveSection } from "./types";
 
 export default function App() {
   const [activeSection, setActiveSection] = useState<ActiveSection>("home");
 
-  // Sync hash routing if user opens website with /#testimonials
+  // Sync hash routing if user opens website with /#testimonials or /#case-studies
   useEffect(() => {
     const handleHashChange = () => {
       const hash = window.location.hash;
       if (hash === "#testimonials") {
         setActiveSection("testimonials");
+      } else if (hash === "#case-studies") {
+        setActiveSection("case-studies");
       } else if (hash) {
         const sec = hash.substring(1) as ActiveSection;
-        const validSections: ActiveSection[] = ["home", "about", "services", "contact"];
+        const validSections: ActiveSection[] = ["home", "about", "services", "case-studies", "testimonials", "contact"];
         if (validSections.includes(sec)) {
           setActiveSection(sec);
         }
@@ -33,7 +36,7 @@ export default function App() {
 
   // Dynamically update active section relative to scroll viewport offsets
   useEffect(() => {
-    if (activeSection === "testimonials") return; // Skip scroll updates when on dedicated sub-page
+    if (activeSection === "testimonials" || activeSection === "case-studies") return; // Skip scroll updates when on dedicated sub-pages
 
     const handleScroll = () => {
       const sections: ActiveSection[] = ["home", "about", "services", "contact"];
@@ -59,8 +62,8 @@ export default function App() {
 
   const handleSectionSelect = (section: ActiveSection) => {
     setActiveSection(section);
-    if (section === "testimonials") {
-      window.location.hash = "testimonials";
+    if (section === "testimonials" || section === "case-studies") {
+      window.location.hash = section;
       window.scrollTo({ top: 0, behavior: "smooth" });
     } else {
       window.location.hash = section;
@@ -86,6 +89,11 @@ export default function App() {
       <main id="main-scroll-layers" className="pt-20">
         {activeSection === "testimonials" ? (
           <Testimonials onBackToHome={() => handleSectionSelect("home")} />
+        ) : activeSection === "case-studies" ? (
+          <CaseStudies
+            onBackToHome={() => handleSectionSelect("home")}
+            onContactClick={() => handleSectionSelect("contact")}
+          />
         ) : (
           <>
             {/* Animated Landing Hero */}

@@ -1,12 +1,21 @@
 import React from "react";
 import { LogoFull } from "./Logo";
 import { Mail, Shield, CheckCheck } from "lucide-react";
+import { ActiveSection } from "../types";
 
-export const Footer: React.FC = () => {
+interface FooterProps {
+  onNavigate?: (section: ActiveSection) => void;
+}
+
+export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
   const currentYear = new Date().getFullYear();
 
-  const handleScrollTo = (id: string) => {
-    const element = document.getElementById(id);
+  const handleNavClick = (section: ActiveSection) => {
+    if (onNavigate) {
+      onNavigate(section);
+      return;
+    }
+    const element = document.getElementById(section);
     if (element) {
       window.scrollTo({
         top: element.getBoundingClientRect().top + window.pageYOffset - 80,
@@ -14,6 +23,14 @@ export const Footer: React.FC = () => {
       });
     }
   };
+
+  const footerNavLinks: { id: ActiveSection; label: string }[] = [
+    { id: "about", label: "About Belma" },
+    { id: "services", label: "Services" },
+    { id: "case-studies", label: "Case Studies" },
+    { id: "testimonials", label: "Testimonials" },
+    { id: "contact", label: "Contact" },
+  ];
 
   return (
     <footer className="bg-silver-900 text-white pt-16 pb-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden" id="footer">
@@ -42,13 +59,13 @@ export const Footer: React.FC = () => {
               Navigation Index
             </h4>
             <ul className="space-y-2.5 text-xs text-silver-300 font-sans font-medium" id="footer-links">
-              {["about", "services", "contact"].map((section) => (
-                <li key={section}>
+              {footerNavLinks.map((item) => (
+                <li key={item.id}>
                   <button
-                    onClick={() => handleScrollTo(section)}
-                    className="capitalize hover:text-gold-400 transition-colors cursor-pointer block text-left"
+                    onClick={() => handleNavClick(item.id)}
+                    className="hover:text-gold-400 transition-colors cursor-pointer block text-left"
                   >
-                    {section === "about" ? "About Belma" : section}
+                    {item.label}
                   </button>
                 </li>
               ))}

@@ -29,6 +29,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, onSectionChange }
   const navLinks: { id: ActiveSection; label: string }[] = [
     { id: "about", label: "About" },
     { id: "services", label: "Services" },
+    { id: "case-studies", label: "Case Studies" },
     { id: "testimonials", label: "Testimonials" },
     { id: "contact", label: "Contact" },
   ];
@@ -37,7 +38,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, onSectionChange }
     setIsOpen(false);
     onSectionChange(id);
 
-    if (id === "testimonials") {
+    if (id === "testimonials" || id === "case-studies") {
       window.scrollTo({
         top: 0,
         behavior: "smooth",

@@ -94,7 +94,7 @@ export const Hero: React.FC<HeroProps> = ({ onSectionChange }) => {
                 variants={itemVariants}
                 className="text-lg sm:text-xl text-sage-600 max-w-2xl mx-auto lg:mx-0 font-sans font-light leading-relaxed"
               >
-               I partner with growing (B2B SaaS) companies to supercharge their product delivery. Using AI and modern workflows, I help them optimize their user activation loops and execute their roadmaps at speed.
+                help post-seed & Series A B2B SaaS teams cut onboarding friction, lift activation rates, and ship high-impact features faster. Using AI and modern workflows, I help them optimize their user activation loops and execute their roadmaps faster.
               </motion.p>
             </div>
 

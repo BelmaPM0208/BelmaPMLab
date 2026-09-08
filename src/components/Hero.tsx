@@ -77,10 +77,7 @@ export const Hero: React.FC<HeroProps> = ({ onSectionChange }) => {
             {/* Top Indicator */}
             <motion.div variants={badgeVariants} className="inline-flex self-center lg:self-start">
               <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-silver-100 text-[#8C7355] border border-silver-150 shadow-sm font-bold">
-                <span className="flex h-2 w-2 relative">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gold-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-gold-500"></span>
-                </span>
+                <span className="inline-flex rounded-full h-2 w-2 bg-gold-500"></span>
                 AI-Powered Product Growth Strategy
               </span>
             </motion.div>

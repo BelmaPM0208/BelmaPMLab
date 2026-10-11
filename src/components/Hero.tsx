@@ -96,7 +96,7 @@ export const Hero: React.FC<HeroProps> = ({ onSectionChange }) => {
               >
                 Whether you're growing an existing product, launching something new, or trying to turn early customers into steady revenue, I help you figure out what to focus on, what to improve, and how to move forward with confidence.
 
-No unnecessary complexity. Just practical strategies based on your customers, your business goals, and what the data is telling us.
+No unnecessary complexity. Just practical strategies based on your customers, your business goals, and what the data is telling us. If you prefer me leading your team through the implementation as well, I'd be happy to.
               </motion.p>
             </div>
 

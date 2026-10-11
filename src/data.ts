@@ -103,7 +103,7 @@ export const BIOGRAPHY_DATA = {
     { title: "Web Development Fundamentals", organization: "KFC Center" }
   ],
   bioText: [
-    "I help (B2B) SaaS companies grow their revenue using their own product and AI. By combining Product-Led Growth (PLG) with AI automation, I build simple systems that attract and keep users.",
+    "I help established B2B SaaS companies improve product adoption, customer retention and revenue growth. By combining product strategy, user behavior, Product-Led Growth (PLG), and practical AI solutions, I identify what's holding your product back and develop clear, actionable strategies to improve performance. Whether you're optimizing an existing product, improving customer journeys, or exploring new growth opportunities, I work alongside your team to turn insights into measurable business outcomes and build simple systems that attract and keep users.",
     "Every business is unique, which is why I use a customized, AI-driven playbook to find exactly what's slowing you down. Together, we will stop the leaks: Find out why users leave and fix it. Smooth the journey: Make it easier for customers to adopt your product. Build a plan: Create a clear, profitable roadmap for your team. Ready to stop guessing and start growing? Let’s book a call."
   ]
 };

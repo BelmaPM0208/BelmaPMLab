@@ -17,13 +17,13 @@ export const SERVICES_DATA: Service[] = [
   },
   {
     id: "retainer",
-    title: "2-3 Month AI-Collaborative Retainer",
+    title: "3-6 Month AI-Collaborative Retainer",
     description: "Active oversight and consulting support where I guide your in-house product and development teams, utilizing state-of-the-art AI productivity tools to quickly audit, oversee, and transition the defined growth strategy.",
     iconName: "Activity",
     deliverables: [
-      "Agile steering & AI-powered implementation quality audits",
-      "Onboarding telemetry metrics & cohort oversight",
-      "Regular strategy syncs, loops optimization, and custom AI playbook workflows"
+      "Guide development teams, review progress, and ensure features meet business goals using Agile methodologies",
+      "Track user onboarding, activation, and retention to identify areas for improvement",
+      "Hold regular strategy meetings, improve user journeys, and use AI tools to speed up execution"
     ],
     growthFocus: "Active steering utilizing AI-co-piloted sprint execution",
     badge: "Retainer Model",

@@ -17,7 +17,7 @@ export const SERVICES_DATA: Service[] = [
   },
   {
     id: "retainer",
-    title: "3-6 Month AI-Collaborative Retainer",
+    title: "3-6 Month Retainer",
     description: "Active oversight and consulting support where I guide your in-house product and development teams, utilizing state-of-the-art AI productivity tools to quickly audit, oversee, and transition the defined growth strategy.",
     iconName: "Activity",
     deliverables: [

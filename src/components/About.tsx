@@ -55,7 +55,7 @@ export const About: React.FC = () => {
             <motion.div variants={itemVariants} className="space-y-4">
               <h3 className="text-xl font-bold font-display text-silver-800 flex items-center gap-2">
                 <UserCheck className="w-5 h-5 text-sage-500" />
-                The Growth Philosophy & Strategy
+                My Product Philosophy & Approach
               </h3>
               <div className="space-y-4 text-base text-silver-600 font-light leading-relaxed">
                 {BIOGRAPHY_DATA.bioText.map((paragraph, index) => (

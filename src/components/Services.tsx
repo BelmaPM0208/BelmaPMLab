@@ -124,7 +124,7 @@ From strategic direction to hands-on execution, let's find the right way to work
                   <div className="flex items-center justify-between">
                     <div className="flex flex-col">
                       <span className="text-[9px] font-bold text-[#8C7355] uppercase tracking-widest">
-                        Growth Catalyst
+                        Expected Outcome
                       </span>
                       <span className="text-xs font-semibold text-silver-850 tracking-tight mt-0.5">
                         {service.growthFocus}

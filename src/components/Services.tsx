@@ -35,10 +35,12 @@ export const Services: React.FC = () => {
             Services & Packages
           </span>
           <h2 className="text-4xl sm:text-5xl font-normal font-display text-silver-900 tracking-tight">
-            Consulting <span className="italic text-sage-500 font-medium font-display">Tiers</span>
+            Flexible <span className="italic text-sage-500 font-medium font-display">Product Partnerships</span>
           </h2>
           <p className="text-sage-600 font-sans mt-3 text-sm sm:text-base max-w-xl mx-auto font-light">
-            Surgical, metrics-driven consulting to optimize user retention, construct instrumentation plans, and map sustainable activation pipelines.
+            Whether you need a clear product strategy, ongoing product management, or support validating new opportunities, I offer flexible engagements tailored to your business goals, product maturity, and team's needs.
+
+From strategic direction to hands-on execution, let's find the right way to work together.
           </p>
         </div>
 

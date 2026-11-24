@@ -73,8 +73,8 @@ export const Services: React.FC = () => {
                     {service.badge && (
                       <span className={`px-2.5 py-1 rounded-full text-[9px] font-mono tracking-wider font-bold uppercase ${
                         service.badge === "Coming Soon" 
-                          ? "bg-amber-50 text-amber-700 border border-amber-200"
-                          : service.badge === "Retainer Model"
+                          : service.badge === "Flagship Service"
+                          ? "bg-emerald-50 text-emerald-700 border border-emerald-200"
                           ? "bg-sage-50 text-sage-700 border border-sage-200"
                           : "bg-clay-50 text-clay-700 border border-clay-200"
                       }`}>

@@ -351,7 +351,7 @@ export const Contact: React.FC = () => {
                         htmlFor="newsletter"
                         className="text-[11px] text-silver-500 select-none cursor-pointer leading-tight"
                       >
-                        Subscribe to <b>Product Meets Growth Weekly</b>. Receive brief event schemas, A/B testing diagnostics, and PLG teardowns. Decent frequency, no spam.
+                        Subscribe to <b>Strategy Meets Execution Weekly</b>. Receive brief event schemas, A/B testing diagnostics, and PLG teardowns. Decent frequency, no spam.
                       </label>
                     </div>
 

@@ -128,7 +128,7 @@ export const Contact: React.FC = () => {
                   <ArrowRight className="w-4 h-4" />
                 </a>
                 <span className="text-[10px] text-center block text-sage-400 font-sans italic">
-                  Fully Free • Zero Obligation • You Decide Success
+                  Fully Free • Zero Obligation • Explore mutual fit
                 </span>
               </div>
 

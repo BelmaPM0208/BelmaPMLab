@@ -123,7 +123,7 @@ No unnecessary complexity. Just practical strategies based on your customers, yo
                 className="w-full sm:w-auto px-8 py-4 bg-white/60 backdrop-blur text-silver-800 border-2 border-sand-300 rounded-full font-sans text-sm font-semibold uppercase tracking-wider hover:bg-white hover:border-silver-400 transition-all flex items-center justify-center gap-2 cursor-pointer"
                 id="hero-portfolio-cta"
               >
-                Explore Consulting Packages
+                Explore My Services
               </button>
             </motion.div>
 

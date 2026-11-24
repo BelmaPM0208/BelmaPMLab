@@ -3,31 +3,31 @@ import { Service } from "./types";
 export const SERVICES_DATA: Service[] = [
   {
     id: "strategy-roadmap",
-    title: "One-Time Strategy & AI-Enhanced Roadmap",
-    description: "A tailored, high-fidelity strategic growth blueprint where I analyze your current funnel, pinpoint core friction spots, and leverage predictive AI tools to design a custom product strategy and roadmap.",
+    title: "Product Strategy & Roadmap",
+    description: "A focused strategic engagement designed to bring clarity and direction to your product. I assess your current product, customer needs, market opportunities, and business objectives to develop an actionable product strategy and prioritized roadmap that your team can confidently execute.",
     iconName: "Compass",
     deliverables: [
-      "Custom product growth strategic blueprint & AI prompt libraries",
-      "User activation & cohort loop specifications",
-      "AI-accelerated feature prioritization & execution roadmap"
+      "Product assessment, customer insights, and market analysis",
+      "Product vision, strategic objectives, and success metrics",
+      "Feature prioritization and actionable product roadmap"
     ],
-    growthFocus: "Defined final deliverable supercharged by AI-driven scaling",
+    growthFocus: "A clear product strategy, actionable roadmap, and focused execution aligned with your business goals",
     badge: "Strategic Deliverable",
     terms: "50% payment in advance, 50% after the strategy is delivered"
   },
   {
     id: "retainer",
-    title: "3-6 Month Retainer",
-    description: "Active oversight and consulting support where I guide your in-house product and development teams, utilizing state-of-the-art AI productivity tools to quickly audit, oversee, and transition the defined growth strategy.",
+    title: "Fractional Product Management",
+    description: "Hands-on fractional product management tailored to your business needs. I work as an extension of your team, taking ownership of product priorities, aligning stakeholders, and guiding development from strategy to execution, without the commitment of a full-time hire.",
     iconName: "Activity",
     deliverables: [
-      "Guide development teams, review progress, and ensure features meet business goals using Agile methodologies",
-      "Track user onboarding, activation, and retention to identify areas for improvement",
-      "Hold regular strategy meetings, improve user journeys, and use AI tools to speed up execution"
+       "Own and manage the product roadmap, prioritize initiatives, and align development efforts with business objectives",
+       "Lead continuous product discovery, analyze customer feedback, and track key product performance metrics",
+       "Collaborate with cross-functional teams, facilitate product planning, and drive focused execution and continuous improvement"
     ],
-    growthFocus: "Active steering utilizing AI-co-piloted sprint execution",
-    badge: "Retainer Model",
-    terms: "Retainer can be extended upon request"
+    growthFocus: "Ongoing product ownership, strategic alignment, and hands-on execution",
+    badge: "Flagship Service",
+    terms: "3–6 month retainer tailored to your team's needs, with the option to extend"
   },
   {
     id: "pmf-diagnostics",

@@ -159,7 +159,7 @@ export const LogoFull: React.FC<LogoProps> = ({
           <span
             className="text-[8.5px] font-semibold tracking-[0.27em] uppercase whitespace-nowrap text-gold-500"
           >
-            Where Product Meets Growth
+            Where Strategy Meets Execution
           </span>
         </div>
       )}

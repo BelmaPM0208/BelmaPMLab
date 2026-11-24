@@ -177,7 +177,7 @@ No unnecessary complexity. Just practical strategies based on your customers, yo
                   Belma PM Lab
                 </h2>
                 <p className="text-[10px] font-bold tracking-[0.25em] text-sage-500 uppercase whitespace-nowrap">
-                  Where Product Meets Growth
+                  Where Strategy Meets Execution
                 </p>
               </div>
             </motion.div>

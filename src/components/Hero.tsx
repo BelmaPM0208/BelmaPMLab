@@ -88,7 +88,7 @@ export const Hero: React.FC<HeroProps> = ({ onSectionChange }) => {
                 variants={itemVariants}
                 className="text-4xl sm:text-5xl md:text-6.5xl font-normal font-display leading-[1.08] tracking-tight text-silver-900"
               >
-                Build <span className="italic text-sage-500 font-medium">What</span> Matters. <span className="underline decoration-sand-300 decoration-wavy decoration-1 font-semibold text-clay-500">Move with Purpose.</span>
+                Where <span className="italic text-sage-500 font-medium">Strategy</span> Meets <span className="underline decoration-sand-300 decoration-wavy decoration-1 font-semibold text-clay-500">Execution.</span>
               </motion.h1>
               <motion.p
                 variants={itemVariants}

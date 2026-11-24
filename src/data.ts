@@ -103,8 +103,8 @@ export const BIOGRAPHY_DATA = {
     { title: "Web Development Fundamentals", organization: "KFC Center" }
   ],
   bioText: [
-    "I help B2B SaaS companies and founders bring clarity, structure, and strategic direction to their products through fractional product management and product strategy." 
-    "Whether you need an experienced product manager to work alongside your team, define your product vision, prioritize your roadmap, or navigate complex product decisions, I bring the expertise and hands-on support you need without the commitment of a full-time hire." 
+    "I help B2B SaaS companies and founders bring clarity, structure, and strategic direction to their products through fractional product management and product strategy." ,
+    "Whether you need an experienced product manager to work alongside your team, define your product vision, prioritize your roadmap, or navigate complex product decisions, I bring the expertise and hands-on support you need without the commitment of a full-time hire." ,
     "My approach combines customer discovery, market understanding, business objectives, and data-driven decision-making to ensure your team is building the right things for the right reasons. I bridge the gap between business strategy, customer needs, and product development, helping your team stay aligned, focused, and accountable for meaningful outcomes. Every business is unique, which is why I adapt my approach to your company's needs, maturity, and ambitions. From defining your product strategy and validating new opportunities to managing day-to-day product activities and improving existing products, I work as an extension of your team. No unnecessary complexity, generic frameworks, or strategies that sit in a presentation. Just clear direction, practical solutions, and hands-on execution that creates lasting value. Ready to bring more clarity and focus to your product? Let's book a call. ",
      
   ]

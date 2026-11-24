@@ -166,7 +166,7 @@ export const Services: React.FC = () => {
               Let's chat & <span className="italic text-sage-300 font-medium">co-design</span> your growth trajectory
             </h3>
             <p className="text-sm sm:text-base text-sand-100/85 mt-4 font-sans font-light leading-relaxed">
-              Unlock the exact scaling opportunities for your product today! Let’s hop on a call to map out quick wins and diagnose latent friction—with absolutely zero obligation. <span className="font-semibold text-white">After this call, you decide whether you want us to work together or not.</span>
+              Let’s hop on a call to discuss your product challenges, uncover key growth opportunities, and <span className="font-semibold text-white">explore whether we’re a mutual fit to work together—with zero obligation.</span>
             </p>
           </div>
           <a

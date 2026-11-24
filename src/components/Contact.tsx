@@ -98,7 +98,7 @@ export const Contact: React.FC = () => {
             Schedule a <span className="italic text-sage-500 font-medium font-display">Free Discovery Call</span>
           </h2>
           <p className="text-sage-600 font-sans mt-3 text-sm sm:text-base max-w-xl mx-auto font-light leading-relaxed">
-            Let's evaluate your onboarding journey and map out quick growth opportunities—with absolutely zero obligation. <span className="font-semibold text-silver-900">After this call, you decide whether you want us to work together or not.</span>
+            Let's discuss your product challenges, map out quick growth opportunities, and <span className="font-semibold text-silver-900">explore whether we're a mutual fit to work together, with zero obligation.</span>
           </p>
         </div>
 

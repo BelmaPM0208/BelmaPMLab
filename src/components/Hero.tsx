@@ -135,18 +135,18 @@ No unnecessary complexity. Just practical strategies based on your customers, yo
             >
               <div className="flex flex-col items-center lg:items-start text-center lg:text-left space-y-1">
                 <Compass className="w-5 h-5 text-clay-400 mb-1" />
-                <span className="font-sans font-semibold text-sm text-silver-900">Roadmap Strategy</span>
-                <span className="text-xs text-silver-500">Milestones & Growth</span>
+                <span className="font-sans font-semibold text-sm text-silver-900">Fractional Product Management</span>
+                <span className="text-xs text-silver-500">Embedded, hands-on product management for companies that need experienced product expertise without hiring full-time.</span>
               </div>
               <div className="flex flex-col items-center lg:items-start text-center lg:text-left space-y-1">
                 <TrendingUp className="w-5 h-5 text-clay-400 mb-1" />
-                <span className="font-sans font-semibold text-sm text-silver-900">Funnel Optimization</span>
-                <span className="text-xs text-silver-500">Product Analytics</span>
+                <span className="font-sans font-semibold text-sm text-silver-900">Product Strategy</span>
+                <span className="text-xs text-silver-500">Define where your product needs to go, who it serves, and how it creates sustainable competitive advantage.</span>
               </div>
               <div className="flex flex-col items-center lg:items-start text-center lg:text-left space-y-1">
                 <Zap className="w-5 h-5 text-clay-400 mb-1" />
-                <span className="font-sans font-semibold text-sm text-silver-900">PLG Loop Design</span>
-                <span className="text-xs text-silver-500">Activation & Expansion</span>
+                <span className="font-sans font-semibold text-sm text-silver-900">Product Growth & Optimization</span>
+                <span className="text-xs text-silver-500">Identify opportunities to improve product adoption, customer value, retention, and revenue.</span>
               </div>
             </motion.div>
           </div>

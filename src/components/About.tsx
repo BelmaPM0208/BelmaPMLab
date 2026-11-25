@@ -33,7 +33,7 @@ export const About: React.FC = () => {
               Meet <span className="italic text-sage-500">{BIOGRAPHY_DATA.name}</span>
             </h2>
             <p className="text-sage-600 font-sans mt-2 text-sm sm:text-base font-light">
-              Turning user data into product improvements.
+              Your strategic partner in building better products.
             </p>
           </div>
           <div className="mt-4 md:mt-0 font-mono text-xs text-clay-400 font-medium tracking-widest">

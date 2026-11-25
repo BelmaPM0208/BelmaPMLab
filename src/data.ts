@@ -48,7 +48,7 @@ export const SERVICES_DATA: Service[] = [
 export const BIOGRAPHY_DATA = {
   name: "Belma Čabaravdić H.",
   tagline: "AI-Powered Senior Product Manager & Growth Strategist",
-  philosophy: "I use data to understand how customers interact with your product, identify growth opportunities, and turn insights into practical strategies. I also use AI to help teams work smarter and move faster.",
+  philosophy: "My role goes beyond defining product strategy. I work alongside your team to bring clarity to complex decisions, establish the right priorities, and turn product vision into meaningful outcomes. I believe strategy and execution should never exist in isolation.",
   experience: [
     {
       role: "Senior Product Manager",

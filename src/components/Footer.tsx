@@ -25,9 +25,9 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
   };
 
   const footerNavLinks: { id: ActiveSection; label: string }[] = [
-    { id: "about", label: "About Belma" },
+    { id: "about", label: "About Me" },
     { id: "services", label: "Services" },
-    { id: "case-studies", label: "Case Studies" },
+    { id: "case-studies", label: "Selected Work" },
     { id: "testimonials", label: "Testimonials" },
     { id: "contact", label: "Contact" },
   ];
@@ -41,22 +41,22 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         
         {/* Main Grid: Info block vs Quick actions */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-silver-800" id="footer-main">
-          {/* Logo & Slogan Column */}
+          {/* Logo & Positioning Column */}
           <div className="md:col-span-6 space-y-5">
             <LogoFull size={40} lightText={true} />
             <p className="text-xs text-silver-400 max-w-sm font-sans font-light leading-relaxed">
-              Establishing rigorous, metric-focused product telemetry where user experience matches target monetization.
+              Helping businesses bring clarity, structure, and strategic direction to their products through thoughtful product management and practical execution.
             </p>
             <div className="flex items-center gap-2 text-gold-400 text-xs font-mono font-bold tracking-wide">
-              <CheckCheck className="w-4 h-4" />
-              <span>CONFIDENTIAL DEPLOYMENT MODULE AT ACTIVE PORTFOLIO</span>
+              <CheckCheck className="w-4 h-4 flex-shrink-0" />
+              <span>Independent Product Management & Strategy Consultancy</span>
             </div>
           </div>
 
-          {/* Quick Jumps Column */}
+          {/* Quick Links Column */}
           <div className="md:col-span-3 space-y-4">
             <h4 className="text-[10px] font-bold uppercase tracking-widest text-silver-400">
-              Navigation Index
+              Quick Links
             </h4>
             <ul className="space-y-2.5 text-xs text-silver-300 font-sans font-medium" id="footer-links">
               {footerNavLinks.map((item) => (
@@ -72,15 +72,15 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             </ul>
           </div>
 
-          {/* Core Support Guidelines Info Column */}
+          {/* Client Confidentiality Column */}
           <div className="md:col-span-3 space-y-4">
             <h4 className="text-[10px] font-bold uppercase tracking-widest text-silver-400">
-              Intellectual Safeguard
+              Client Confidentiality
             </h4>
             <div className="flex gap-2 items-start text-xs text-silver-300">
               <Shield className="w-5 h-5 text-gold-500 flex-shrink-0 mt-0.5" />
               <p className="font-sans font-light leading-relaxed text-silver-400">
-                All metrics, client names, and product telemetry data are sanitized for public representation under bilateral NDA conditions.
+                Client confidentiality is respected throughout every engagement. Sensitive business information and identifying product details are anonymized where required.
               </p>
             </div>
           </div>

@@ -92,7 +92,7 @@ export const Hero: React.FC<HeroProps> = ({ onSectionChange }) => {
               </motion.h1>
               <motion.div
                 variants={itemVariants}
-                className="space-y-5 text-lg sm:text-xl text-sage-600 max-w-2xl mx-auto lg:mx-0 font-sans font-light leading-relaxed"
+                className="space-y-4 text-lg sm:text-xl text-sage-600 max-w-2xl mx-auto lg:mx-0 font-sans font-light leading-relaxed"
               >
               <p> Whether you're launching a new product, scaling an existing one, or struggling to decide what to build next, I help you turn uncertainty into clear product direction and focused execution. </p>
 

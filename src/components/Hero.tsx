@@ -90,16 +90,16 @@ export const Hero: React.FC<HeroProps> = ({ onSectionChange }) => {
               >
                 Where <span className="italic text-sage-500 font-medium">Strategy</span> Meets <span className="underline decoration-sand-300 decoration-wavy decoration-1 font-semibold text-clay-500">Execution.</span>
               </motion.h1>
-              <motion.p
+              <motion.div
                 variants={itemVariants}
-                className="text-lg sm:text-xl text-sage-600 max-w-2xl mx-auto lg:mx-0 font-sans font-light leading-relaxed"
+                className="space-y-5 text-lg sm:text-xl text-sage-600 max-w-2xl mx-auto lg:mx-0 font-sans font-light leading-relaxed"
               >
               <p> Whether you're launching a new product, scaling an existing one, or struggling to decide what to build next, I help you turn uncertainty into clear product direction and focused execution. </p>
 
 <p> From defining your product strategy and prioritizing your roadmap to working directly with your team, I bring hands-on product expertise without the commitment of a full-time hire. No unnecessary complexity. Just practical, customer-focused decisions that move your business forward. </p>
 
 <p>Practical strategies based on your customers, your business goals, and what the data is telling us. If you prefer me leading your team through the implementation as well, I'd be happy to. </p>
-              </motion.p>
+              </motion.div>
             </div>
 
             {/* Interactive Call to Actions */}

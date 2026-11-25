@@ -48,7 +48,7 @@ export const CASE_STUDIES_DATA: CaseStudy[] = [
     ],
     highlights: [
       {
-        value: "3+ Years",
+        value: "4.5 Years",
         label: "Professional Journey",
         detail: "Progression from Project Manager to Senior Product Manager.",
       },

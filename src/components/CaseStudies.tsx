@@ -780,7 +780,7 @@ export const CaseStudies: React.FC<CaseStudiesProps> = ({
               href="https://calendly.com/belma-belmapmlab/30min"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3.5 bg-silver-900 hover:bg-silver-800 active:bg-silver-950 text-white rounded-full font-sans text-xs font-semibold uppercase tracking-wider transition-all inline-flex items-center justify-center gap-2 shadow-sm"
+              className="px-6 py-3.5 bg-silver-900 hover:bg-silver-800 active:bg-silver-950 text-white rounded-lg font-sans text-xs font-semibold uppercase tracking-wider transition-all inline-flex items-center justify-center gap-2 shadow-sm"
               id="case-studies-header-cta"
             >
               <Calendar className="w-4 h-4 text-gold-400" />
@@ -826,7 +826,7 @@ export const CaseStudies: React.FC<CaseStudiesProps> = ({
               {/* Top Header & Highlights */}
               <div className="p-8 sm:p-12 border-b border-sand-200 bg-gradient-to-br from-[#FAF8F5] via-white to-sand-100/40">
                 <div className="flex flex-wrap items-center gap-3 mb-6">
-                  <span className="px-3.5 py-1.5 rounded-full bg-sage-50 border border-sage-200 text-[11px] font-mono font-bold uppercase tracking-wider text-sage-600">
+                  <span className="px-3.5 py-1.5 rounded-lg bg-sage-50 border border-sage-200 text-[11px] font-mono font-bold uppercase tracking-wider text-sage-600">
                     {study.projectLabel}
                   </span>
                 </div>
@@ -1101,7 +1101,7 @@ export const CaseStudies: React.FC<CaseStudiesProps> = ({
                               href={study.supportingContext.url}
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="self-start sm:self-center flex-shrink-0 px-5 py-2.5 rounded-full bg-white hover:bg-sage-50 text-silver-900 border border-sand-300 hover:border-sage-400 font-sans text-xs font-semibold uppercase tracking-wider transition-all inline-flex items-center gap-2"
+                              className="self-start sm:self-center flex-shrink-0 px-5 py-2.5 rounded-lg bg-white hover:bg-sage-50 text-silver-900 border border-sand-300 hover:border-sage-400 font-sans text-xs font-semibold uppercase tracking-wider transition-all inline-flex items-center gap-2"
                             >
                               {study.supportingContext.buttonText}
                               <ExternalLink className="w-3.5 h-3.5 text-sage-600" />

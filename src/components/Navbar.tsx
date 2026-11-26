@@ -90,7 +90,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, onSectionChange }
               <button
                 key={link.id}
                 onClick={() => handleLinkClick(link.id)}
-                className={`px-4 py-2 rounded-full font-sans text-sm font-medium tracking-wide transition-all ${
+                className={`px-4 py-2 rounded-lg font-sans text-sm font-medium tracking-wide transition-all ${
                   activeSection === link.id
                     ? "text-gold-600 bg-gold-50/70 border border-gold-200/50"
                     : "text-silver-600 hover:text-silver-900 hover:bg-silver-50"

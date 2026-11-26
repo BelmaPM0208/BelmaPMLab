@@ -76,8 +76,8 @@ export const Hero: React.FC<HeroProps> = ({ onSectionChange }) => {
           <div className="lg:col-span-7 flex flex-col space-y-8 text-center lg:text-left">
             {/* Top Indicator */}
             <motion.div variants={badgeVariants} className="inline-flex self-center lg:self-start">
-              <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider bg-silver-100 text-[#8C7355] border border-silver-150 shadow-sm font-bold">
-                <span className="inline-flex rounded-full h-2 w-2 bg-gold-500"></span>
+              <span className="inline-flex items-center px-4 py-1.5 rounded-lg text-xs font-semibold uppercase tracking-wider bg-silver-100 text-[#8C7355] border border-silver-150 shadow-sm font-bold">
+                
                 Fractional Product Management & Product Strategy
               </span>
             </motion.div>

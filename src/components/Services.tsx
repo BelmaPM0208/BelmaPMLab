@@ -141,7 +141,7 @@ From strategic direction to hands-on execution, let's find the right way to work
                             });
                           }
                         }}
-                        className="w-8 h-8 rounded-full bg-sand-100 text-sage-500 group-hover:bg-sage-500 group-hover:text-white flex items-center justify-center transition-all duration-300 cursor-pointer"
+                        className="w-8 h-8 rounded-lg bg-sand-100 text-sage-500 group-hover:bg-sage-500 group-hover:text-white flex items-center justify-center transition-all duration-300 cursor-pointer"
                       >
                         <ArrowRight className="w-4 h-4" />
                       </button>

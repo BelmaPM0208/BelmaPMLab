@@ -229,7 +229,7 @@ export const Contact: React.FC = () => {
                         });
                         setStatus("idle");
                       }}
-                      className="mt-6 px-6 py-2.5 bg-silver-900 hover:bg-silver-800 text-white font-mono text-xs uppercase tracking-wider rounded-xl transition-all"
+                      className="mt-6 px-6 py-2.5 bg-silver-900 hover:bg-silver-800 text-white font-mono text-xs uppercase tracking-wider rounded-lg transition-all"
                     >
                       Trigger New Brief
                     </button>
@@ -359,7 +359,7 @@ export const Contact: React.FC = () => {
                     <button
                       type="submit"
                       disabled={status === "submitting"}
-                      className="w-full mt-4 py-4 bg-silver-900 text-white hover:bg-silver-800 active:bg-silver-950 font-sans text-xs font-bold uppercase tracking-wider rounded-xl transition-all shadow-md flex items-center justify-center gap-2 hover:shadow-lg disabled:opacity-75 disabled:cursor-not-allowed"
+                      className="w-full mt-4 py-4 bg-silver-900 text-white hover:bg-silver-800 active:bg-silver-950 font-sans text-xs font-bold uppercase tracking-wider rounded-lg transition-all shadow-md flex items-center justify-center gap-2 hover:shadow-lg disabled:opacity-75 disabled:cursor-not-allowed"
                     >
                       {status === "submitting" ? (
                         <>

@@ -644,7 +644,7 @@ export const CaseStudiesPreview: React.FC<CaseStudiesPreviewProps> = ({
 
           <button
             onClick={onViewAll}
-            className="self-start md:self-auto px-6 py-3 bg-sand-50 hover:bg-sand-100 text-silver-900 border border-sand-300 rounded-full font-sans text-xs font-semibold uppercase tracking-wider transition-all inline-flex items-center gap-2 cursor-pointer"
+            className="self-start md:self-auto px-6 py-3 bg-sand-50 hover:bg-sand-100 text-silver-900 border border-sand-300 rounded-lg font-sans text-xs font-semibold uppercase tracking-wider transition-all inline-flex items-center gap-2 cursor-pointer"
           >
             Explore My Work
             <ArrowRight className="w-3.5 h-3.5 text-sage-600" />

@@ -428,7 +428,7 @@ export const Testimonials: React.FC<TestimonialsProps> = ({ onBackToHome }) => {
             <div className="pt-4 flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 onClick={onBackToHome}
-                className="px-8 py-3.5 bg-white text-silver-900 hover:bg-silver-100 active:bg-silver-200 rounded-full font-sans text-xs font-semibold uppercase tracking-wider transition-all shadow-sm cursor-pointer"
+                className="px-8 py-3.5 bg-white text-silver-900 hover:bg-silver-100 active:bg-silver-200 rounded-lg font-sans text-xs font-semibold uppercase tracking-wider transition-all shadow-sm cursor-pointer"
               >
                 View Services & Pricing
               </button>

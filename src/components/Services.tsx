@@ -73,7 +73,7 @@ From strategic direction to hands-on execution, let's find the right way to work
                       <IconComponent className="w-5 h-5" />
                     </div>
                     {service.badge && (
-                      <span className={`px-2.5 py-1 rounded-full text-[9px] font-mono tracking-wider font-bold uppercase ${
+                      <span className={`px-2.5 py-1 rounded-lg text-[9px] font-mono tracking-wider font-bold uppercase ${
                         service.badge === "Coming Soon"
                           ? "bg-amber-50 text-amber-700 border border-amber-200"
                           : service.badge === "Flagship Service"

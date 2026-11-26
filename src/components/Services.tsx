@@ -161,7 +161,7 @@ From strategic direction to hands-on execution, let's find the right way to work
         <div className="mt-16 bg-[#2C3639] text-[#F2EDE4] rounded-3xl p-8 md:p-12 relative overflow-hidden flex flex-col lg:flex-row items-center justify-between gap-8 shadow-2xl border border-white/5" id="services-highlight-banner">
           <div className="absolute top-0 right-0 w-[400px] h-[400px] bg-sage-400/5 rounded-full filter blur-3xl pointer-events-none" />
           <div className="relative z-10 max-w-2xl text-center lg:text-left">
-            <span className="inline-block px-3 py-1 rounded-full text-[10px] uppercase tracking-widest font-mono bg-sage-500/20 text-sage-300 border border-sage-500/30 mb-4 font-bold">
+            <span className="inline-block px-3 py-1 rounded-lg text-[10px] uppercase tracking-widest font-mono bg-sage-500/20 text-sage-300 border border-sage-500/30 mb-4 font-bold">
               Actionable Strategy Consultation // Free 30-Min Call
             </span>
             <h3 className="text-2xl sm:text-3.5xl font-light font-display tracking-wide uppercase text-white leading-tight">

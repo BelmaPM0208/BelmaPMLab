@@ -1279,7 +1279,7 @@ export const CaseStudies: React.FC<CaseStudiesProps> = ({
               href="https://calendly.com/belma-belmapmlab/30min"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3.5 bg-[#FAF8F5] text-[#2C3639] hover:bg-white rounded-full font-sans text-xs font-semibold uppercase tracking-wider transition-all flex items-center justify-center gap-2 text-center shadow-sm"
+              className="px-6 py-3.5 bg-[#FAF8F5] text-[#2C3639] hover:bg-white rounded-lg font-sans text-xs font-semibold uppercase tracking-wider transition-all flex items-center justify-center gap-2 text-center shadow-sm"
             >
               Book a Free Discovery Call
               <ArrowRight className="w-3.5 h-3.5" />
@@ -1287,7 +1287,7 @@ export const CaseStudies: React.FC<CaseStudiesProps> = ({
             {onContactClick && (
               <button
                 onClick={onContactClick}
-                className="px-6 py-3.5 border border-silver-600 hover:border-sand-200 text-sand-100 hover:text-white rounded-full font-sans text-xs font-semibold uppercase tracking-wider transition-all text-center cursor-pointer"
+                className="px-6 py-3.5 border border-silver-600 hover:border-sand-200 text-sand-100 hover:text-white rounded-lg font-sans text-xs font-semibold uppercase tracking-wider transition-all text-center cursor-pointer"
               >
                 Get in Touch
               </button>

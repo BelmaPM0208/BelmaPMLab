@@ -175,7 +175,7 @@ From strategic direction to hands-on execution, let's find the right way to work
             href="https://calendly.com/belma-belmapmlab/30min"
             target="_blank"
             rel="noopener noreferrer"
-            className="relative z-10 w-full lg:w-auto px-10 py-5 bg-[#FAF8F5] text-[#2C3639] font-sans text-xs font-bold uppercase tracking-widest rounded-full transition-all hover:bg-white hover:scale-[1.02] cursor-pointer flex items-center justify-center gap-2 shadow-lg min-w-[240px]"
+            className="relative z-10 w-full lg:w-auto px-10 py-5 bg-[#FAF8F5] text-[#2C3639] font-sans text-xs font-bold uppercase tracking-widest rounded-lg transition-all hover:bg-white hover:scale-[1.02] cursor-pointer flex items-center justify-center gap-2 shadow-lg min-w-[240px]"
           >
             Claim Free Call Slot
             <ArrowRight className="w-4 h-4" />

@@ -131,7 +131,7 @@ export const Testimonials: React.FC<TestimonialsProps> = ({ onBackToHome }) => {
           <div className="mt-8 md:mt-0 flex flex-col sm:flex-row gap-3">
             <button
               onClick={() => setIsFormOpen(!isFormOpen)}
-              className="px-6 py-3 bg-sage-500 hover:bg-sage-600 text-white rounded-full font-sans text-xs font-semibold uppercase tracking-wider transition-all flex items-center justify-center gap-2 shadow-sm cursor-pointer"
+              className="px-6 py-3 bg-sage-500 hover:bg-sage-600 text-white rounded-lg font-sans text-xs font-semibold uppercase tracking-wider transition-all flex items-center justify-center gap-2 shadow-sm cursor-pointer"
             >
               <Plus className="w-4 h-4" />
               Provide Endorsement
@@ -264,13 +264,13 @@ export const Testimonials: React.FC<TestimonialsProps> = ({ onBackToHome }) => {
                     <button
                       type="button"
                       onClick={() => setIsFormOpen(false)}
-                      className="px-5 py-2.5 border border-sand-300 rounded-full font-sans text-xs font-semibold uppercase tracking-wider text-silver-700 hover:bg-sand-100 transition-colors cursor-pointer"
+                      className="px-5 py-2.5 border border-sand-300 rounded-lg font-sans text-xs font-semibold uppercase tracking-wider text-silver-700 hover:bg-sand-100 transition-colors cursor-pointer"
                     >
                       Cancel
                     </button>
                     <button
                       type="submit"
-                      className="px-6 py-2.5 bg-silver-900 hover:bg-silver-800 text-white rounded-full font-sans text-xs font-semibold uppercase tracking-wider transition-all flex items-center gap-2 shadow-sm cursor-pointer"
+                      className="px-6 py-2.5 bg-silver-900 hover:bg-silver-800 text-white rounded-lg font-sans text-xs font-semibold uppercase tracking-wider transition-all flex items-center gap-2 shadow-sm cursor-pointer"
                     >
                       <Send className="w-3.5 h-3.5" />
                       Verify & Add Live

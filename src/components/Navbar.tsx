@@ -102,7 +102,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, onSectionChange }
 
             <button
               onClick={() => handleLinkClick("contact")}
-              className="ml-4 px-5 py-2.5 bg-silver-900 text-white rounded-full font-sans text-xs font-semibold uppercase tracking-wider hover:bg-silver-800 active:bg-silver-950 transition-all shadow-sm shadow-silver-900/10 hover:shadow-md hover:scale-[1.02] flex items-center gap-2"
+              className="ml-4 px-5 py-2.5 bg-silver-900 text-white rounded-lg font-sans text-xs font-semibold uppercase tracking-wider hover:bg-silver-800 active:bg-silver-950 transition-all shadow-sm shadow-silver-900/10 hover:shadow-md hover:scale-[1.02] flex items-center gap-2"
               id="desktop-cta-btn"
             >
               <Mail className="w-3.5 h-3.5" />
@@ -149,7 +149,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, onSectionChange }
           <div className="pt-4 px-2">
             <button
               onClick={() => handleLinkClick("contact")}
-              className="w-full py-3.5 bg-silver-900 text-white rounded-xl font-sans text-sm font-semibold uppercase tracking-wider hover:bg-silver-800 active:bg-silver-950 transition-all flex items-center justify-center gap-2 shadow-sm"
+              className="w-full py-3.5 bg-silver-900 text-white rounded-lg font-sans text-sm font-semibold uppercase tracking-wider hover:bg-silver-800 active:bg-silver-950 transition-all flex items-center justify-center gap-2 shadow-sm"
               id="mobile-cta-btn"
             >
               <Mail className="w-4 h-4" />

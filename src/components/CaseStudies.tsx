@@ -662,7 +662,7 @@ export const CaseStudiesPreview: React.FC<CaseStudiesPreviewProps> = ({
               >
                 <div>
                   <div className="mb-5">
-                    <span className="inline-block px-3 py-1 rounded-full bg-white border border-sand-300 text-[10px] font-mono font-bold uppercase tracking-wider text-sage-600">
+                    <span className="inline-block px-3 py-1 rounded-lg bg-white border border-sand-300 text-[10px] font-mono font-bold uppercase tracking-wider text-sage-600">
                       {study.projectLabel}
                     </span>
                   </div>

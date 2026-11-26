@@ -692,7 +692,7 @@ export const CaseStudiesPreview: React.FC<CaseStudiesPreviewProps> = ({
 
                   <button
                     onClick={() => onSelectCaseStudy(study.id)}
-                    className="w-full py-3 px-4 rounded-xl bg-silver-900 hover:bg-sage-600 text-white font-sans text-xs font-semibold uppercase tracking-wider transition-colors flex items-center justify-center gap-2 cursor-pointer"
+                    className="w-full py-3 px-4 rounded-lg bg-silver-900 hover:bg-sage-600 text-white font-sans text-xs font-semibold uppercase tracking-wider transition-colors flex items-center justify-center gap-2 cursor-pointer"
                   >
                     Explore Project
                     <ArrowRight className="w-3.5 h-3.5" />
